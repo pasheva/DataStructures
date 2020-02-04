@@ -1,0 +1,3 @@
+/home/riya/CS/251/MatrixClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/riya/CS/251/MatrixClass/cmake-build-debug/CMakeFiles/MatrixClass.dir
+/home/riya/CS/251/MatrixClass/cmake-build-debug/CMakeFiles/edit_cache.dir
