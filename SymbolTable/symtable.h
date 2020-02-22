@@ -110,7 +110,6 @@ private:
 
   /* All the symbols that have been added. Allowing for O(1) accessing. */
   int numOfSymbols;
-
   int numOfScopes;
 
 public:
@@ -149,7 +148,6 @@ public:
    * Complexity: O(1)
    *
    * @return the number of all variables
-   *
    */
   int size() const{
 
@@ -192,26 +190,7 @@ public:
 
 
       allScopes.push_back(name);
-      numOfScopes++;
-
-//      if(allScopes.empty()){ //O(1)
-
-//          if( name[0] == 'G' || name[0] == 'g'){
-//
-//              allScopes.push_front(name);
-//              numOfScopes++;
-//          }
-//      }
-//      else{
-//
-//          //We cannot have multiple global scopes.
-//          if( name == "global" || name == "Global"){
-//
-//              throw invalid_argument("Global scope already exists");
-//          }
-//
-//
-//      }
+      this->numOfScopes++;
   }
 
 
@@ -232,6 +211,7 @@ public:
 
           throw invalid_argument("runtime_error");
       }
+
       //Erasin the scope name since we are exiting it.
       allScopes.back().Name.erase();
       //Updating by removing all the variables initilized in the local current scope.
@@ -239,7 +219,7 @@ public:
       allScopes.back().Symbols.clear();
 
       allScopes.pop_back();
-      numOfScopes--;
+      this->numOfScopes--;
   }
 
 
@@ -250,6 +230,7 @@ public:
    *
    * @remark
    *  The current scope in the one on the back of the deque
+   *  Returning a deep copy.
    *
    * Complexity: O(N) where N is the # of symbols in the current scope
    *
@@ -261,6 +242,7 @@ public:
 
           throw invalid_argument("runtime_error");
       }
+
       string currScopeName = allScopes.back().Name;
       //Copy over scope name;
       Scope copy(currScopeName);
@@ -296,7 +278,7 @@ public:
        */
       pair<typename map<KeyT, SymbolT>::iterator, bool> mapCheck;
 
-
+      //In the case of no scope at all.
       if(allScopes.empty()){
          throw invalid_argument("runtime_error");
       }
@@ -350,19 +332,16 @@ public:
           throw invalid_argument("Option scope has to be either ALL, CURRENT or GLOBAL");
       }
 
-
       if(option == ScopeOption::ALL){
             for(int i = ((this->numscopes()) - 1); i >= 0; --i){ //N
-                auto ptr = allScopes.at(i).Symbols.find(key); //logn
-                if (ptr != allScopes.at(i).Symbols.end()){
+                auto ptr = this->allScopes.at(i).Symbols.find(key); //logn
+                if (ptr != this->allScopes.at(i).Symbols.end()){
                     symbol = ptr->second;
                     return true;
                 }
             }
       }
       else if(option == ScopeOption::CURRENT){
-          cout << "Entering current" << endl;
-          cout << allScopes.back().Name << endl;
           auto ptr = this->allScopes.back().Symbols.find(key); //O(1) && O(log n)
           if (ptr != this->allScopes.back().Symbols.end()){
               symbol = ptr->second;

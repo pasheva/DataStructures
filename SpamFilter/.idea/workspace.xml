@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project1" targetName="Project1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb1b2f46-b94f-4752-ad00-3d0dd9b2cdbb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1WXAGJ1ocw3FU79aF3OnBCl3KJ5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Project1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1" TARGET_NAME="Project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Project1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb1b2f46-b94f-4752-ad00-3d0dd9b2cdbb" name="Default Changelist" comment="" />
+      <created>1579285468568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579285468568</updated>
+      <workItem from="1579285473109" duration="649000" />
+      <workItem from="1579286472612" duration="404000" />
+      <workItem from="1579287545953" duration="26894000" />
+      <workItem from="1579395957058" duration="54294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="423" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579386123995">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="423" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579386123995" />
+    <state x="1178" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579566676370">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1178" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1579566676370" />
+    <state x="697" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579310259333">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="697" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579310259333" />
+    <state width="457" height="438" key="DebuggerActiveHint" timestamp="1579542024533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="457" height="438" key="DebuggerActiveHint/0.27.1920.1053@0.27.1920.1053" timestamp="1579542024533" />
+    <state x="746" y="313" key="FileChooserDialogImpl" timestamp="1579386120822">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="746" y="313" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1579386120822" />
+    <state width="1310" height="294" key="GridCell.Tab.0.bottom" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state width="1310" height="294" key="GridCell.Tab.0.center" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state width="1310" height="294" key="GridCell.Tab.0.left" timestamp="1579585353484">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353484" />
+    <state width="1310" height="294" key="GridCell.Tab.0.right" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state width="1310" height="294" key="GridCell.Tab.1.bottom" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state width="1310" height="294" key="GridCell.Tab.1.center" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state width="1310" height="294" key="GridCell.Tab.1.left" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state width="1310" height="294" key="GridCell.Tab.1.right" timestamp="1579585353485">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1310" height="294" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1579585353485" />
+    <state x="574" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579562083103">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="574" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1579562083103" />
+    <state x="191" y="51" width="710" height="748" key="dock-window-1" timestamp="1579555298033">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="191" y="51" width="710" height="748" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1579555298033" />
+    <state x="0" y="27" width="785" height="1053" key="dock-window-2" timestamp="1579560924504">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="27" width="785" height="1053" key="dock-window-2/0.27.1920.1053@0.27.1920.1053" timestamp="1579560924504" />
+    <state x="90" y="127" width="706" height="748" key="dock-window-3" timestamp="1579568188963">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="90" y="127" width="706" height="748" key="dock-window-3/0.27.1920.1053@0.27.1920.1053" timestamp="1579568188963" />
+    <state x="575" y="99" width="770" height="909" key="find.popup" timestamp="1579580297914">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="575" y="99" width="770" height="909" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1579580297914" />
+    <state x="623" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1579574572618">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="258" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1579574572618" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="spamUsername" />
+        <watch expression="emailUsername" />
+        <watch expression="spamDomain" />
+        <watch expression="emailDomain" />
+        <watch expression="lowEnd" />
+        <watch expression="middle" />
+        <watch expression="highEnd" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

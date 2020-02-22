@@ -13,14 +13,7 @@ enum class Test
 
 int main()
 {
-    Test zeroPos = Test::ALL;
-    Test firstPos = Test::INNER;
-
-    firstPos = Test::ALL;
-    if( Test::INNER == firstPos)
-    {
-        cout << "1";
-    }
+    Test zeroPos
 
     return 0;
 }
