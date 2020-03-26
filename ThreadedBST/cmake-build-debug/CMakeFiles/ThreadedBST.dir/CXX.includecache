@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/riya/CS/251/ThreadedBST/bstt.h
+iostream
+-
+
+/home/riya/CS/251/ThreadedBST/main.cpp
+iostream
+-
+bstt.h
+/home/riya/CS/251/ThreadedBST/bstt.h
+vector
+-
+

@@ -6,4 +6,4 @@ run:
 	./program.exe
 
 valgrind:
-	valgrind --tool=memcheck --leak-check=yes --track-origins=yes ./program.exe
+	valgrind --tool=memcheck --leak-check=full --show-reachable=yes --track-origins=yes ./program.exe

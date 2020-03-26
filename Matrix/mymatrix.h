@@ -121,6 +121,18 @@ public:
     }
   }
 
+
+  //Destructor
+  ~mymatrix(){
+      for(int r = 0; r < NumRows; r++){
+          Rows[r].NumCols = 0;
+          delete Rows[r].Cols;
+      }
+      delete Rows;
+      NumRows = 0;
+  }
+
+
   /*
   * parameterized (overloaded) constructor:
   *

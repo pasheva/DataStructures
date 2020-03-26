@@ -1,6 +1,6 @@
-/usr/local/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/riya/CS/251/MatrixClass
--- The C compiler identification is GNU 9.2.0
--- The CXX compiler identification is GNU 9.2.0
+/usr/local/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/riya/CS/251/Matrix
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/riya/CS/251/MatrixClass/cmake-build-debug
+-- Build files have been written to: /home/riya/CS/251/Matrix/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ThreadedAVL.dir/main.cpp.o  -o ThreadedAVL 

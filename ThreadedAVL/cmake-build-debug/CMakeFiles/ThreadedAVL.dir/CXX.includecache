@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/riya/CS/251/ThreadedAVL/avlt.h
+iostream
+-
+vector
+-
+stack
+-
+
+/home/riya/CS/251/ThreadedAVL/main.cpp
+iostream
+-
+avlt.h
+/home/riya/CS/251/ThreadedAVL/avlt.h
+
