@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Graphs2.dir/main.cpp.o CMakeFiles/Graphs2.dir/dist.cpp.o CMakeFiles/Graphs2.dir/osm.cpp.o CMakeFiles/Graphs2.dir/tinyxml2.cpp.o CMakeFiles/Graphs2.dir/dijkstra.cpp.o  -o Graphs2 
